@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4a4a4a;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.header-right {
+    padding: 10px 20px;
+}
+
+.mode {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 5px;
+    border-radius: 999px;
+    cursor: pointer;
+}

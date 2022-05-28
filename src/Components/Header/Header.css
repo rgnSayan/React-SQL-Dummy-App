@@ -11,15 +11,3 @@
     padding: 10px 20px;
     color: #fff;
 }
-
-.header-right {
-    padding: 10px 20px;
-}
-
-.mode {
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 5px;
-    border-radius: 999px;
-    cursor: pointer;
-}

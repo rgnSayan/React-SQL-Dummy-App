@@ -5,10 +5,11 @@ import TableCell from "@mui/material/TableCell";
 import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
+import Paper from "@mui/material/Paper";
 
 function CustomTable({ data, columns }) {
   return (
-    <div>
+    <Paper>
       <TableContainer sx={{ maxHeight: 490, minWidth: 650 }}>
         <Table aria-label="simple table" stickyHeader>
           <TableHead
@@ -22,9 +23,7 @@ function CustomTable({ data, columns }) {
           >
             <TableRow>
               {columns &&
-                columns.map((col) => (
-                  <TableCell>{(col.header)}</TableCell>
-                ))}
+                columns.map((col) => <TableCell>{col.header}</TableCell>)}
             </TableRow>
           </TableHead>
           <TableBody>
@@ -44,7 +43,7 @@ function CustomTable({ data, columns }) {
           </TableBody>
         </Table>
       </TableContainer>
-    </div>
+    </Paper>
   );
 }
 

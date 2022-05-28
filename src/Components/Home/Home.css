@@ -19,6 +19,7 @@ textarea {
     padding-left: 35px;
     padding-top: 10px;
     border-color: #212121;
+    background-color: #F5F5F5;
 }
 
 .home-textField,
@@ -29,4 +30,8 @@ textarea {
 .home-outputField {
     display: flex;
     flex-direction: column;
+}
+
+.output {
+    padding: 5px;
 }

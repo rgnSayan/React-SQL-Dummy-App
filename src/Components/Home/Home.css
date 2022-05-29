@@ -35,3 +35,13 @@ textarea {
 .output {
     padding: 5px;
 }
+
+@media all and (max-width: 700px) {
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-outputField {
+        padding-top: 10px;
+    }
+}
